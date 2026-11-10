@@ -1,0 +1,33 @@
+# Installed packages and generated build artifacts.
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+.cache/
+
+# Local assistant sessions and cloud account configuration.
+.agents/
+.codex/
+codex/
+.aws/
+.claude/
+
+# Credentials, runtime state, and development certificates.
+.env
+.env.*
+!.env.example
+.certs/
+.data/
+.ssh/
+.npmrc
+.netrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+
+# Extra research
+docs/
