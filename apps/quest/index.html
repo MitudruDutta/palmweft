@@ -8,6 +8,12 @@
     <link rel="icon" href="data:," />
   </head>
   <body data-layout="launcher">
+    <div class="loom" aria-hidden="true">
+      <div class="floor"><i></i></div>
+      <b class="weft-word">WEFT</b>
+      <div class="orb"><i></i><i></i><i></i></div>
+      <i class="thread"></i><i class="thread"></i><i class="thread"></i><i class="thread"></i><i class="thread"></i>
+    </div>
     <div id="stage" aria-label="3D view"></div>
     <main id="side">
       <header class="top">
@@ -40,6 +46,7 @@
         <section class="card"><h2>Replay &amp; diagnostics</h2><div class="row"><button id="btn-scan" type="button">Scan</button></div><div class="row replay-row"><input id="take-file" type="file" accept=".zip,.jsonl" aria-label="Replay file" /><select id="take-mode" aria-label="replay mode"><option value="playback">playback</option><option value="pipeline">pipeline (live server)</option></select></div><p class="small muted">Desktop: <a id="link-emulate" href="?emulate=1">emulator</a> · <a href="?emulate=1&amp;scan=fixture">fixture scan</a> · <a href="?emulate=1&amp;camera=sim">sim room</a> · <a href="?spike=camera">camera check</a></p></section>
         <section class="card"><div class="row between"><h2>Activity</h2><button id="btn-repair" type="button" class="secondary small">Forget pairing</button></div><pre id="log" class="log"></pre></section>
       </div><p class="small muted">Desktop shortcuts: <kbd>S</kbd> Find devices · <kbd>Enter</kbd> select · <kbd>Esc</kbd> release · <kbd>X</kbd> stop · <kbd>R</kbd> record · click to pinch · right-drag to look</p></details>
+      <div class="ticker" aria-hidden="true"><span>Look ✳ Ask ✳ Interact ✳ Palmweft ✳ Look ✳ Ask ✳ Interact ✳ Palmweft ✳ Look ✳ Ask ✳ Interact ✳ Palmweft ✳ Look ✳ Ask ✳ Interact ✳ Palmweft ✳ Look ✳ Ask ✳ Interact ✳ Palmweft ✳ Look ✳ Ask ✳ Interact ✳ Palmweft ✳ </span></div>
       <footer><span>Palmweft</span><span>Look. Ask. Interact.</span></footer>
     </main>
     <script type="module" src="/src/app/main.ts"></script>
