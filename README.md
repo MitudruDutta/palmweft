@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/hero.jpg" alt="Palmweft banner: devices in a room outlined in neon, with a generated control panel (illustration)" />
+  <img src=".github/readme/hero.jpg" alt="Palmweft banner: devices in a room outlined in neon, with a generated control panel (illustration)" />
 </p>
 
 Point at a device in Meta Quest passthrough, ask what you want to do, and use the spatial controls an agent builds for it.
@@ -29,9 +29,9 @@ Nothing is pre-wired: hands do nothing to a device until a program the wearer as
 
 | Headset launcher | Desktop emulator (FIXTURE mode) |
 | --- | --- |
-| ![Palmweft launcher with the Enter AR button](docs/images/launcher.jpg) | ![Desktop emulator: side panel and the emulated Quest view with the in-headset menu](docs/images/emulator.jpg) |
+| ![Palmweft launcher with the Enter AR button](.github/readme/launcher.jpg) | ![Desktop emulator: side panel and the emulated Quest view with the in-headset menu](.github/readme/emulator.jpg) |
 
-<p align="center"><img src="docs/images/mobile.jpg" width="260" alt="Palmweft launcher at phone width" /></p>
+<p align="center"><img src=".github/readme/mobile.jpg" width="260" alt="Palmweft launcher at phone width" /></p>
 
 ## Run locally
 
